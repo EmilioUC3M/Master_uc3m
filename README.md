@@ -1,5 +1,6 @@
 # Master_uc3m
 Uc3m projects
+Proyecto realizado por Emilio Muñoz Álvarez y Pablo Ebohon Serna
 
 El tema principal del proyecto trata sobre un análisis de recetas de cocina y posterior predicción de sus valoraciones con modelos entrenados basados en algoritmos de regresión y redes neuronales,
 para comparar el rendimiento de cada una en base a sus resultados.
@@ -40,8 +41,8 @@ Las prestaciones obtenidas tambien fueron similares (sobretodo TF-IDF y W2V), si
 La conclusión final fue que las mejores prestaciones fueron las de la red neuronal utilizando BERT,
 aunque no es una mejoría muy significativa con respecto al Ridge utilizando el mismo conjunto de entrenamiento.
 
-## Hugging Face
+También se ha hecho uso del fine tuning del Hugging Face, comparando el rendimiento del BERT no usándolo. Éste realiza un ajuste de nuestro conjunto de texto (al ser un modelo preentrenado con un conjunto extenso de datos)
+para nuestra tarea específica (en este caso, recetas de cocina). Las prestaciones fueron mejores
 
-## Extensión: Summarize
 
 
